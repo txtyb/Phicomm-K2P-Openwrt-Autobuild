@@ -52,7 +52,7 @@ jobs:
 
       - name: Load custom configuration
         env:
-          CONFIG_FILE: "K2P.config"
+          CONFIG_FILE: "K2P-Slim.config"
           DIY_SH: "diy.sh"
         run: |
           [ -e files ] && mv files openwrt/files
